@@ -15,6 +15,8 @@ namespace cwiczenie_03v2.Models
         public string BirthDate { get; set; }
 
         public string idEnrollment { get; set; }
-       
+
+        public string NameOfStudies { get; set; }
+
     }
 }
