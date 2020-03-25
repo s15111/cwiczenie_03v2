@@ -96,7 +96,7 @@ namespace cwiczenie_03v2.Controllers
 
 
 
-            using (var con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s18728;Integrated Security=True"))
+            using (var con = new SqlConnection(Sciezka))
 
             using (var com = new SqlCommand())
 
